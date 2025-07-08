@@ -55,12 +55,14 @@ h1 {
 
 .policy-links {
     margin-top: 10px;
+    text-align: center;
 }
 
 .policy-links a {
-    color: #B67845;
+    color: #b67845;
     text-decoration: none;
     margin: 0 8px;
+    font-size: 14px;
 }
 
 .policy-links a:hover {
