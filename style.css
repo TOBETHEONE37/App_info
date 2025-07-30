@@ -39,12 +39,6 @@ h1 {
     margin: 8px 0;
 }
 
-.download {
-    margin-top: 40px;
-    font-weight: bold;
-    color: #e65f88;
-}
-
 .footer {
     text-align: center;
     font-size: 14px;
@@ -87,4 +81,41 @@ h1 {
 .account-deletion a {
     color: #e65f88;
     font-weight: bold;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 32px 0;
+    flex-wrap: wrap;
+    /* 모바일 대응 */
+}
+
+.download-button {
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #B67845;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #a9673e;
+    transform: translateY(-2px);
+}
+
+.download-button:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
 }
