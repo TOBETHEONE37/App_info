@@ -43,8 +43,8 @@ h1 {
     text-align: center;
     font-size: 14px;
     color: #666;
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 24px;
+    padding: 16px;
 }
 
 .policy-links {
@@ -87,7 +87,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin: 32px 0;
+    margin: 32px 0 16px;
     flex-wrap: wrap;
     /* 모바일 대응 */
 }
